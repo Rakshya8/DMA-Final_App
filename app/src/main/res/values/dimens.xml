@@ -12,4 +12,5 @@
     <dimen name="splashTextSize">30dp</dimen>
     <dimen name="attemptTextSize">25dp</dimen>
     <dimen name="mTopTask">20dp</dimen>
+    <dimen name="topCat">40dp</dimen>
 </resources>
