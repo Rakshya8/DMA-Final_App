@@ -10,4 +10,5 @@
     <dimen name="mbSize">20dp</dimen>
     <dimen name="padding">7dp</dimen>
     <dimen name="splashTextSize">30dp</dimen>
+    <dimen name="attemptTextSize">25dp</dimen>
 </resources>
