@@ -7,4 +7,5 @@
     <dimen name="TextFormSize">60dp</dimen>
     <dimen name="SubtitleSize">30sp</dimen>
     <dimen name="FormPadding">10dp</dimen>
+    <dimen name="mbSize">20dp</dimen>
 </resources>
