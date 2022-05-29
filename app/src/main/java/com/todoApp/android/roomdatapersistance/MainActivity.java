@@ -45,7 +45,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 /**
- * Activity with both task and category Layout
+ * Activity with both task and category Layout in different orientation
  */
 public class MainActivity extends AppCompatActivity implements TaskAdapter.ItemClickListener {
 
