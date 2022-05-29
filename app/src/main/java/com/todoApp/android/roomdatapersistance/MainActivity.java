@@ -44,7 +44,9 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-
+/**
+ * Activity with both task and category Layout
+ */
 public class MainActivity extends AppCompatActivity implements TaskAdapter.ItemClickListener {
 
     // Constant for logging
