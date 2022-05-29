@@ -20,6 +20,6 @@
         android:layout_centerHorizontal="true"
         android:text="To Do App"
         android:textColor="@color/purple"
-        android:textSize="30dp" />
+        android:textSize="@dimen/splashTextSize" />
 
 </RelativeLayout>
