@@ -11,4 +11,5 @@
     <dimen name="padding">7dp</dimen>
     <dimen name="splashTextSize">30dp</dimen>
     <dimen name="attemptTextSize">25dp</dimen>
+    <dimen name="mTopTask">20dp</dimen>
 </resources>
