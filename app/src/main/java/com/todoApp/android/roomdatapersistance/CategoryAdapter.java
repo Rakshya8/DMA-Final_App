@@ -14,6 +14,11 @@ import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.Locale;
 
+/**
+ * This TaskAdapter creates and binds ViewHolders, that hold the description and priority of a task,
+ * to a RecyclerView to efficiently display data.
+ */
+
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder> {
 
     // Constant for date format
