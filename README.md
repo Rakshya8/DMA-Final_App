@@ -1,46 +1,34 @@
-# To_Do_List
-RoomDataPersistance
-  topicsCovered:
-    <br/>- Room
-    <br/>- ModelView
-    <br/>- Excecutor
-    <br/>- LiveData
-    <br/>- ViewModelFactory
+# To-Do-App-Final-
+
+<h1> Final To Do App </h1>
+This is a Todo App which helps user to create and manage an users categorized task and plans as per their choice.
+
+Features Of App
+1. Animated Splash Screen
+2. Create task
+3. Priority Spinner
+4. Update task
+5. Delete task
+6. Delete all task
+7. Swipe functionality
+8. landscape optimized
+9. Error validation
+10. Category Spinner
+11. Date Picker
+12. Notification ALert
+13. CRUD of Category
+14. Login
 
 
-## Installation
-1. Unzip the github project to a folder
-2. Open Android Studio. Go to File -> New -> Import Project
-3. choose To_Do_List to import and then click Next->Finish.
-4. Run the project in android studio with emulator or on android phone to see the App running.
- 
-## Dependencies
-make sure you have the below dependencies in build.gradle.app file
-<br/> implementation fileTree(dir: 'libs', include: ['*.jar'])
-<br/> implementation 'com.android.support:appcompat-v7:29.0.0'
-<br/> 
-<br/>   //  RecyclerView dependency; must match SDK version
-<br/> implementation 'com.android.support:recyclerview-v7:29.0.0'
+Structural Design Pattern(MVVM) Of App
+This app is build in MVVM structural design pattern where data source is Model, activities and fragments is View or the user interface and ViewModel class is ViewModel. Live data is wrapper that can hold any type of data including list and it can be observed by the UI controller.All layers are modulare and decoupled from each other and every part has well defined resposibilities.
 
-<br/>//  FAB dependency
-<br/>implementation 'com.android.support:design:29.0.0'
-<br/>
-<br/>// Room dependencies
-<br/> implementation "android.arch.persistence.room:runtime:1.1.1"
-<br/> implementation 'androidx.recyclerview:recyclerview:1.1.0'
-<br/> implementation 'com.google.android.material:material:1.1.0'
-<br/> annotationProcessor "android.arch.persistence.room:compiler:1.1.1"
-<br/>
-<br/> //liveData
-<br/> implementation "android.arch.lifecycle:extensions:1.1.1"
-<br/> annotationProcessor "android.arch.lifecycle:compiler:1.1.1"
-<br/>
-<br/> // Testing
-<br/> // Instrumentation dependencies use androidTestImplementation
-<br/> // (as opposed to testImplementation for local unit tests run in the JVM)
-<br/> androidTestImplementation 'junit:junit:4.12'
-<br/>androidTestImplementation 'com.android.support:support-annotations:28.0.0'
-<br/>androidTestImplementation 'com.android.support.test:runner:1.0.2'
-<br/>androidTestImplementation 'com.android.support.test:rules:1.0.2'
+<a href="https://imgur.com/644Ajoa"><img src="https://i.imgur.com/644Ajoa.png" title="source: imgur.com" /></a>
+<P><h1>Final App</h1></p>
+<a href="https://imgur.com/P7MtuVZ"><img src="https://i.imgur.com/P7MtuVZ.gif" title="source: imgur.com" /></a>
 
-## Final App
+Installation Guide
+1. Download Zip
+2.  Download dependency
+3.  Select an OS with play store avaliable
+4.  Run the app
